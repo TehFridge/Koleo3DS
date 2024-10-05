@@ -39,6 +39,7 @@ end
 
 function love.load()	
 	--font = love.graphics.newFont("anyfont.otf", 8)
+	hotstacje = {"wroclaw-glowny", "warszawa", "warszawa-centralna", "krakow", "krakow-glowny", "poznan-glowny", "katowice", "gdansk", "gdansk-glowny", "gdynia-glowna", "szczecin-glowny", "lodz-fabryczna", "warszawa-zachodnia", "warszawa-wschodnia", "bydgoszcz-glowna", "lublin-glowny", "rzeszow-glowny", "gdansk-wrzeszcz", "kolobrzeg", "opole-glowne", "kielce-glowne", "przemysl-glowny", "bialystok", "olsztyn", "olsztyn-glowny", "sopot", "czestochowa", "legnica", "lodz", "lodz-widzew", "torun", "torun-glowny", "zakopane", "lodz-kaliska", "gliwice", "bielsko-biala-glowna"}
 	MOVE_PAGE = -20
 	kurwacoto_jest = 1
 	mode_sel = 1
@@ -125,7 +126,7 @@ function draw_top_screen(dt)
 		--TextDraw.DrawTextCentered("Ładowanie...", SCREEN_WIDTH/2, SCREEN_HEIGHT / 2, {1, 1, 1, 1}, font, 2.1)
 	elseif state == "main_strona" then
 		--TextDraw.DrawTextCentered(parseurl(tree("h2")[1]:gettext()), SCREEN_WIDTH/2, 40, {1, 1, 1, 1}, font, 1) 
-		TextDraw.DrawTextCentered(stacje[stacjasel].name .. " -> " .. stacje[endstacjasel].name, SCREEN_WIDTH/2, 20, {1, 1, 1, 1}, font, HEADLINE_SCALE)
+		TextDraw.DrawTextCentered(gdzieidokad, SCREEN_WIDTH/2, 20, {1, 1, 1, 1}, font, HEADLINE_SCALE)
 		if kurwacoto_jest == 1 then 
 			draw_widget(parsetime(pociagi.connections[1 + additional_offset].departure) .. " - " .. parsetime(pociagi.connections[1 + additional_offset].arrival) .. "   " .. cena1, BASE_PARAGRAPH_POS - REC_GAP, true)
 		else
@@ -161,11 +162,11 @@ end
 function draw_bottom_screen(dt)
 	DrawRectangle(0, 400, {0.08,0.04,0.28, 1}, 240, true)
 	--TextDraw.DrawTextCentered("Y - Nadchodzące Konwenty", 320/2, 40, {1, 1, 1, 1}, font, 1) 
-	TextDraw.DrawTextCentered("Stacja Początkowa: " .. stacje[stacjasel].name, 320/2, 60, {1, 1, 1, 1}, font, 1)
+	TextDraw.DrawTextCentered("Stacja Początkowa: " .. format_station_name(hotstacje[stacjasel]), 320/2, 60, {1, 1, 1, 1}, font, 1.3)
 	if state == "article" then
 		TextDraw.DrawTextCentered("DPad Góra/Dół - Scrolluj treść", 320/2, 80, {1, 1, 1, 1}, font, 1)
 	else 
-		TextDraw.DrawTextCentered("Stacja Końcowa: " .. stacje[endstacjasel].name, 320/2, 80, {1, 1, 1, 1}, font, 1)
+		TextDraw.DrawTextCentered("Stacja Końcowa: " .. format_station_name(hotstacje[endstacjasel]), 320/2, 80, {1, 1, 1, 1}, font, 1.3)
 	end
 	--TextDraw.DrawTextCentered("A - Załaduj Treść", 320/2, 100, {1, 1, 1, 1}, font, 1)
 	-- if state == "con_info" then
@@ -186,6 +187,27 @@ local function extract_p_tags(html)
 		end
 	end
     return table.concat(paragraphs, "\n")
+end
+function capitalize(str)
+    return str:sub(1,1):upper() .. str:sub(2):lower()
+end
+
+function replace_special_cases(word)
+    if word:lower() == "glowny" then
+        return "Główny"
+	elseif word:lower() == "glowna" then
+		return "Główna"
+    end
+    return word
+end
+
+function format_station_name(station)
+    local words = {}
+    for word in station:gmatch("[^-]+") do
+        local capitalized_word = capitalize(word)
+        table.insert(words, replace_special_cases(capitalized_word))
+    end
+    return table.concat(words, " ")
 end
 function getprice(id)
 	local str = id
@@ -231,9 +253,12 @@ function update_cena()
 	cena3 = getprice(pociagi.connections[selection + 2].id)
 end
 function dawajpociagi_prosze(startstacja, endstacja)
-	refresh_data("https://koleo.pl/api/v2/main/connections?query%5Bstart_station%5D=" .. startstacja .. "&query%5Bend_station%5D=" .. endstacja .. "&query%5Bdate%5D=" .. os.date("%Y-%m-%d") .. "T04%3A00%3A00&query%5Bonly_direct%5D=false&query%5Bonly_purchasable%5D=false&query%5Bis_arrival%5D=false")
+	refresh_data("https://timeapi.io/api/time/current/zone?timeZone=Europe%2FSarajevo")
+	czasenmachen = parsetime(responded.dateTime)
+	refresh_data("https://koleo.pl/api/v2/main/connections?query%5Bstart_station%5D=" .. startstacja .. "&query%5Bend_station%5D=" .. endstacja .. "&query%5Bdate%5D=" .. os.date("%Y-%m-%d") .. "T" .. czasenmachen .. "&query%5Bonly_direct%5D=false&query%5Bonly_purchasable%5D=true&query%5Bis_arrival%5D=false")
 	pociagi = responded
 	update_cena()
+	gdzieidokad = format_station_name(hotstacje[stacjasel]) .. " -> " .. format_station_name(hotstacje[endstacjasel])
 end
 --https://koleo.pl/api/v2/main/connections?query%5Bstart_station%5D=wroclaw-glowny&query%5Bend_station%5D=poznan-glowny&query%5Bdate%5D=2024-10-23T09%3A20%3A30&query%5Bonly_direct%5D=false&query%5Bonly_purchasable%5D=false&query%5Bis_arrival%5D=false
 
@@ -280,14 +305,34 @@ end
 function love.gamepadpressed(joystick, button)
 	if button == "dpright" then
 		if mode_sel > 1 then
-			if stacjasel < #stacje then
+			if stacjasel < #hotstacje then
 				stacjasel = stacjasel + 1
+			elseif stacjasel == #hotstacje then
+				stajcasel = 1
 			end
 		else
-			if endstacjasel < #stacje then
+			if endstacjasel < #hotstacje then
 				endstacjasel = endstacjasel + 1
+			elseif endstacjasel == #hotstacje then
+				endstajcasel = 1
 			end
 		end
+		print(endstacjasel)
+	elseif button == "dpleft" then
+		if mode_sel > 1 then
+			if stacjasel > 1 then
+				stacjasel = stacjasel - 1
+			elseif stacjasel == 1 then
+				stajcasel = #hotstacje
+			end
+		else
+			if endstacjasel > 1 then
+				endstacjasel = endstacjasel - 1
+			elseif endstacjasel == 1 then
+				endstajcasel = #hotstacje
+			end
+		end
+		print(endstacjasel)
 	end
 	if button == "b" then
 		if mode_sel == 1 then 
@@ -304,7 +349,7 @@ function love.gamepadpressed(joystick, button)
 	end
 	if button == "y" then
 		if REFRESHED == 0 then
-			dawajpociagi_prosze(stacje[stacjasel].name_slug, stacje[endstacjasel].name_slug)
+			dawajpociagi_prosze(hotstacje[stacjasel], hotstacje[endstacjasel])
 			--REFRESHED = 1
 			print(parsetime(pociagi.connections[1].arrival))
 		end
