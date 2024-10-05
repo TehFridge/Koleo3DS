@@ -6,11 +6,11 @@
 # [string] @version     : Version of the game in {major}.{minor}.{revision} format, default: '0.1.0'
 # [string] @icons       : Icon paths, defaults: empty string ('')
 [metadata]
-title = "Zappka3DS"
+title = "Koleo3DS"
 author = "TehFridge"
-description = "Jaka parówa wariacie?"
-version = "1.2.0"
-icons = { ctr = "icon.png" }
+description = "pojebalo mnie"
+version = "0.1.0"
+icons = { ctr = "" }
 
 ## --- Build Options --- ##
 
