@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "math.h": "c",
+        "stdlib.h": "c",
+        "citro2d.h": "c",
+        "types.h": "c",
+        "cwav_shit.h": "c",
+        "sprites.h": "c",
+        "assert.h": "c",
+        "curl.h": "c",
+        "request.h": "c",
+        "cstdlib": "cpp",
+        "setjmp.h": "c",
+        "synchronization.h": "c"
+    }
+}

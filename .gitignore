@@ -1,0 +1,13 @@
+
+build/
+
+*.3dsx
+*.cia
+*.elf
+*.smdh
+
+romfs/gfx/
+
+VA_LINES.txt
+
+

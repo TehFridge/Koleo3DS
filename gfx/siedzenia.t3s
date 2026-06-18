@@ -1,0 +1,10 @@
+--atlas -f rgba4 -z auto
+seat_empty.png
+seat_occupied.png
+seat_selected.png
+seat_wozek_empty.png
+seat_wozek_occupied.png
+seat_wozek_selected.png
+seat_caretaker_empty.png
+seat_caretaker_occupied.png
+seat_caretaker_selected.png

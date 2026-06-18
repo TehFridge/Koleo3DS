@@ -1,0 +1,841 @@
+{
+    "updatedUntil": "2026-01-03T22:00:44.516Z",
+    "more": false,
+    "parcels": [
+        {
+            "shipmentNumber": "620999566231235677195642",
+            "shipmentType": "parcel",
+            "openCode": "236012",
+            "qrCode": "P|+48676767676|236012",
+            "storedDate": "2025-12-05T08:07:44.000Z",
+            "pickUpDate": "2025-12-05T20:57:00.026Z",
+            "pickUpPoint": {
+                "name": "TESTNAZWA",
+                "location": {
+                    "latitude": 50.10209,
+                    "longitude": 19.95641
+                },
+                "locationDescription": "Wewnątrz Lokalu",
+                "openingHours": "24/7",
+                "addressDetails": {
+                    "postCode": "31-235",
+                    "city": "test",
+                    "province": "małopolskie",
+                    "street": "jakaś",
+                    "buildingNumber": "41",
+                    "country": "PL"
+                },
+                "virtual": 0,
+                "pointType": "PL",
+                "type": [
+                    "parcel_locker"
+                ],
+                "location247": true,
+                "doubled": false,
+                "imageUrl": "https://static.easypack24.net/points/pl/images/chuj.jpg",
+                "easyAccessZone": true,
+                "airSensor": false,
+                "country": "PL"
+            },
+            "endOfWeekCollection": false,
+            "operations": {
+                "manualArchive": true,
+                "autoArchivableSince": "2025-12-05T20:57:00.026Z",
+                "delete": true,
+                "collect": false,
+                "expandAvizo": false,
+                "highlight": false,
+                "refreshUntil": "2026-01-18T15:19:13.686Z",
+                "requestEasyAccessZone": "DISALLOWED",
+                "voicebot": true,
+                "canShareToObserve": false,
+                "canShareOpenCode": false,
+                "canShareParcel": false,
+                "withDonations": true
+            },
+            "status": "READY_TO_PICKUP",
+            "statusGroup": "DELIVERED",
+            "eventLog": [
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "DELIVERED",
+                    "date": "2025-12-05T20:57:00.026Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "READY_TO_PICKUP",
+                    "date": "2025-12-05T08:07:44.328Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "OUT_FOR_DELIVERY",
+                    "date": "2025-12-05T05:41:38.288Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-05T03:54:21.817Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "SENT_FROM_SOURCE_BRANCH",
+                    "date": "2025-12-04T20:58:41.001Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-04T18:54:27.621Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "TAKEN_BY_COURIER",
+                    "date": "2025-12-04T16:39:00.720Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "CONFIRMED",
+                    "date": "2025-12-04T15:19:13.669Z"
+                }
+            ],
+            "avizoTransactionStatus": "NONE",
+            "carbonFootprint": {
+                "boxMachineDelivery": "0.011",
+                "addressDelivery": "0.249",
+                "changeDeliveryTypePercent": "95.4",
+                "changeDeliveryTypeValue": "0.238",
+                "redirectionUrl": "https://inpost.pl/slad-weglowy-w-aplikacji"
+            },
+            "ownershipStatus": "OWN",
+            "economyParcel": false,
+            "internationalParcel": false,
+            "parcelSize": "A",
+            "receiver": {
+                "phoneNumber": {
+                    "prefix": "+48",
+                    "value": "999999999"
+                },
+                "email": "9999999@order.inpostpay.pl",
+                "name": "9999999@order.inpostpay.pl"
+            },
+            "sender": {
+                "name": "KPOPOWO.pl"
+            },
+            "events": [
+                {
+                    "date": "2025-12-05T20:57:00.026Z",
+                    "eventTitle": "Doręczona",
+                    "eventDescription": "Podróż przesyłki od Nadawcy do Odbiorcy zakończyła się, ale nie musi to oznaczać końca naszej znajomości :) Jeśli lubisz InPost, odwiedź nasz fanpage na Facebooku. Dziękujemy!"
+                },
+                {
+                    "date": "2025-12-05T08:07:44.328Z",
+                    "eventTitle": "Gotowa do odbioru",
+                    "eventDescription": "Paczkomat InPost – Twoja paczka dotarła! Odbiorca otrzymuje e-maila, a także powiadomienie w aplikacji InPost Mobile lub SMS-a z kodem odbioru i informacją, jak długo paczka będzie czekać na odbiór. Jeśli paczka nie zostanie odebrana w tym czasie, zostanie zwrócona, o czym poinformujemy Odbiorcę w osobnych komunikatach."
+                },
+                {
+                    "date": "2025-12-05T05:41:38.288Z",
+                    "eventTitle": "Wydana do doręczenia",
+                    "eventDescription": "Już prawie! Prawdopodobnie dziś przesyłka trafi do Odbiorcy. Na godzinę przyjazdu Kuriera wpływa wiele czynników. W wyjątkowych, niezależnych od Kuriera sytuacjach, przesyłka może zostać doręczona w następnym dniu roboczym."
+                },
+                {
+                    "date": "2025-12-05T03:54:21.817Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T20:58:41.001Z",
+                    "eventTitle": "W trasie",
+                    "eventDescription": "Przesyłka jest w drodze między oddziałami InPost. Po dotarciu do miejsca docelowego zostanie przekazana do doręczenia."
+                },
+                {
+                    "date": "2025-12-04T18:54:27.621Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T16:39:00.720Z",
+                    "eventTitle": "Odebrana przez Kuriera",
+                    "eventDescription": "Dobra wiadomość! Przesyłka została odebrana przez Kuriera i jest w drodze do oddziału InPost, skąd wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T15:19:13.669Z",
+                    "eventTitle": "Przesyłka utworzona",
+                    "eventDescription": "Przesyłka została utworzona, ale nie jest gotowa do nadania."
+                }
+            ],
+            "sharedTo": [
+                {
+                    "uuid": "98989898-9898-9891-9898-989892989898",
+                    "name": "plz",
+                    "phoneNumber": {
+                        "prefix": "+48",
+                        "value": "000000067"
+                    }
+                }
+            ]
+        },
+        {
+            "shipmentNumber": "620999566231235677195642",
+            "shipmentType": "parcel",
+            "openCode": "236012",
+            "qrCode": "P|+48676767676|236012",
+            "storedDate": "2025-12-05T08:07:44.000Z",
+            "pickUpDate": "2025-12-05T20:57:00.026Z",
+            "pickUpPoint": {
+                "name": "TESTNAZWA",
+                "location": {
+                    "latitude": 50.10209,
+                    "longitude": 19.95641
+                },
+                "locationDescription": "Wewnątrz Lokalu",
+                "openingHours": "24/7",
+                "addressDetails": {
+                    "postCode": "31-235",
+                    "city": "test",
+                    "province": "małopolskie",
+                    "street": "jakaś",
+                    "buildingNumber": "41",
+                    "country": "PL"
+                },
+                "virtual": 0,
+                "pointType": "PL",
+                "type": [
+                    "parcel_locker"
+                ],
+                "location247": true,
+                "doubled": false,
+                "imageUrl": "https://static.easypack24.net/points/pl/images/chuj.jpg",
+                "easyAccessZone": true,
+                "airSensor": false,
+                "country": "PL"
+            },
+            "endOfWeekCollection": false,
+            "operations": {
+                "manualArchive": true,
+                "autoArchivableSince": "2025-12-05T20:57:00.026Z",
+                "delete": true,
+                "collect": false,
+                "expandAvizo": false,
+                "highlight": false,
+                "refreshUntil": "2026-01-18T15:19:13.686Z",
+                "requestEasyAccessZone": "DISALLOWED",
+                "voicebot": true,
+                "canShareToObserve": false,
+                "canShareOpenCode": false,
+                "canShareParcel": false,
+                "withDonations": true
+            },
+            "status": "READY_TO_PICKUP",
+            "statusGroup": "DELIVERED",
+            "eventLog": [
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "DELIVERED",
+                    "date": "2025-12-05T20:57:00.026Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "READY_TO_PICKUP",
+                    "date": "2025-12-05T08:07:44.328Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "OUT_FOR_DELIVERY",
+                    "date": "2025-12-05T05:41:38.288Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-05T03:54:21.817Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "SENT_FROM_SOURCE_BRANCH",
+                    "date": "2025-12-04T20:58:41.001Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-04T18:54:27.621Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "TAKEN_BY_COURIER",
+                    "date": "2025-12-04T16:39:00.720Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "CONFIRMED",
+                    "date": "2025-12-04T15:19:13.669Z"
+                }
+            ],
+            "avizoTransactionStatus": "NONE",
+            "carbonFootprint": {
+                "boxMachineDelivery": "0.011",
+                "addressDelivery": "0.249",
+                "changeDeliveryTypePercent": "95.4",
+                "changeDeliveryTypeValue": "0.238",
+                "redirectionUrl": "https://inpost.pl/slad-weglowy-w-aplikacji"
+            },
+            "ownershipStatus": "OWN",
+            "economyParcel": false,
+            "internationalParcel": false,
+            "parcelSize": "A",
+            "receiver": {
+                "phoneNumber": {
+                    "prefix": "+48",
+                    "value": "999999999"
+                },
+                "email": "9999999@order.inpostpay.pl",
+                "name": "9999999@order.inpostpay.pl"
+            },
+            "sender": {
+                "name": "KPOPOWO.pl"
+            },
+            "events": [
+                {
+                    "date": "2025-12-05T20:57:00.026Z",
+                    "eventTitle": "Doręczona",
+                    "eventDescription": "Podróż przesyłki od Nadawcy do Odbiorcy zakończyła się, ale nie musi to oznaczać końca naszej znajomości :) Jeśli lubisz InPost, odwiedź nasz fanpage na Facebooku. Dziękujemy!"
+                },
+                {
+                    "date": "2025-12-05T08:07:44.328Z",
+                    "eventTitle": "Gotowa do odbioru",
+                    "eventDescription": "Paczkomat InPost – Twoja paczka dotarła! Odbiorca otrzymuje e-maila, a także powiadomienie w aplikacji InPost Mobile lub SMS-a z kodem odbioru i informacją, jak długo paczka będzie czekać na odbiór. Jeśli paczka nie zostanie odebrana w tym czasie, zostanie zwrócona, o czym poinformujemy Odbiorcę w osobnych komunikatach."
+                },
+                {
+                    "date": "2025-12-05T05:41:38.288Z",
+                    "eventTitle": "Wydana do doręczenia",
+                    "eventDescription": "Już prawie! Prawdopodobnie dziś przesyłka trafi do Odbiorcy. Na godzinę przyjazdu Kuriera wpływa wiele czynników. W wyjątkowych, niezależnych od Kuriera sytuacjach, przesyłka może zostać doręczona w następnym dniu roboczym."
+                },
+                {
+                    "date": "2025-12-05T03:54:21.817Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T20:58:41.001Z",
+                    "eventTitle": "W trasie",
+                    "eventDescription": "Przesyłka jest w drodze między oddziałami InPost. Po dotarciu do miejsca docelowego zostanie przekazana do doręczenia."
+                },
+                {
+                    "date": "2025-12-04T18:54:27.621Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T16:39:00.720Z",
+                    "eventTitle": "Odebrana przez Kuriera",
+                    "eventDescription": "Dobra wiadomość! Przesyłka została odebrana przez Kuriera i jest w drodze do oddziału InPost, skąd wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T15:19:13.669Z",
+                    "eventTitle": "Przesyłka utworzona",
+                    "eventDescription": "Przesyłka została utworzona, ale nie jest gotowa do nadania."
+                }
+            ],
+            "sharedTo": [
+                {
+                    "uuid": "98989898-9898-9891-9898-989892989898",
+                    "name": "plz",
+                    "phoneNumber": {
+                        "prefix": "+48",
+                        "value": "000000067"
+                    }
+                }
+            ]
+        },
+        {
+            "shipmentNumber": "000000000000000000000000",
+            "shipmentType": "parcel",
+            "openCode": "995099",
+            "qrCode": "P|+48999999999|995099",
+            "storedDate": "2025-12-13T06:11:01.000Z",
+            "pickUpDate": "2025-12-13T20:54:59.877Z",
+            "pickUpPoint": {
+                "name": "TESTNAZWA",
+                "location": {
+                    "latitude": 50.10209,
+                    "longitude": 19.95641
+                },
+                "locationDescription": "Wewnątrz Lokalu",
+                "openingHours": "24/7",
+                "addressDetails": {
+                    "postCode": "31-235",
+                    "city": "xxx",
+                    "province": "xxx",
+                    "street": "xxx",
+                    "buildingNumber": "41",
+                    "country": "PL"
+                },
+                "virtual": 0,
+                "pointType": "PL",
+                "type": [
+                    "parcel_locker"
+                ],
+                "location247": true,
+                "doubled": false,
+                "imageUrl": "https://static.easypack24.net/points/pl/images/chuj.jpg",
+                "easyAccessZone": true,
+                "airSensor": false,
+                "country": "PL"
+            },
+            "multiCompartment": {
+                "uuid": "98989898-9898-9898-9898-989898989898",
+                "shipmentNumbers": [
+                    "000000000000000000000000",
+                    "000000000000000000000001"
+                ],
+                "presentation": false,
+                "collected": true
+            },
+            "endOfWeekCollection": true,
+            "operations": {
+                "manualArchive": true,
+                "autoArchivableSince": "2025-12-13T20:54:59.877Z",
+                "delete": true,
+                "collect": false,
+                "expandAvizo": false,
+                "highlight": false,
+                "refreshUntil": "2026-01-26T12:35:03.832Z",
+                "requestEasyAccessZone": "DISALLOWED",
+                "voicebot": true,
+                "canShareToObserve": false,
+                "canShareOpenCode": false,
+                "canShareParcel": false,
+                "withDonations": true
+            },
+            "status": "DELIVERED",
+            "statusGroup": "DELIVERED",
+            "eventLog": [
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "DELIVERED",
+                    "date": "2025-12-13T20:54:59.877Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "READY_TO_PICKUP",
+                    "date": "2025-12-13T06:11:01.150Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "OUT_FOR_DELIVERY",
+                    "date": "2025-12-13T05:12:56.600Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-13T04:04:28.427Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "SENT_FROM_SOURCE_BRANCH",
+                    "date": "2025-12-12T17:48:13.001Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-12T15:15:02.429Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "CONFIRMED",
+                    "date": "2025-12-12T12:35:03.814Z"
+                }
+            ],
+            "avizoTransactionStatus": "NONE",
+            "carbonFootprint": {
+                "boxMachineDelivery": "0.011",
+                "addressDelivery": "0.249",
+                "changeDeliveryTypePercent": "95.4",
+                "changeDeliveryTypeValue": "0.238",
+                "redirectionUrl": "https://inpost.pl/slad-weglowy-w-aplikacji"
+            },
+            "ownershipStatus": "OWN",
+            "economyParcel": false,
+            "internationalParcel": false,
+            "parcelSize": "A",
+            "receiver": {
+                "phoneNumber": {
+                    "prefix": "+48",
+                    "value": "999999999"
+                },
+                "email": "chuj@gmail.com",
+                "name": "Inpost Paczkomat chuj"
+            },
+            "sender": {
+                "name": "amazon@inpost.pl"
+            },
+            "events": [
+                {
+                    "date": "2025-12-13T20:54:59.877Z",
+                    "eventTitle": "Doręczona",
+                    "eventDescription": "Podróż przesyłki od Nadawcy do Odbiorcy zakończyła się, ale nie musi to oznaczać końca naszej znajomości :) Jeśli lubisz InPost, odwiedź nasz fanpage na Facebooku. Dziękujemy!"
+                },
+                {
+                    "date": "2025-12-13T06:11:01.150Z",
+                    "eventTitle": "Gotowa do odbioru",
+                    "eventDescription": "Paczkomat InPost – Twoja paczka dotarła! Odbiorca otrzymuje e-maila, a także powiadomienie w aplikacji InPost Mobile lub SMS-a z kodem odbioru i informacją, jak długo paczka będzie czekać na odbiór. Jeśli paczka nie zostanie odebrana w tym czasie, zostanie zwrócona, o czym poinformujemy Odbiorcę w osobnych komunikatach."
+                },
+                {
+                    "date": "2025-12-13T05:12:56.600Z",
+                    "eventTitle": "Wydana do doręczenia",
+                    "eventDescription": "Już prawie! Prawdopodobnie dziś przesyłka trafi do Odbiorcy. Na godzinę przyjazdu Kuriera wpływa wiele czynników. W wyjątkowych, niezależnych od Kuriera sytuacjach, przesyłka może zostać doręczona w następnym dniu roboczym."
+                },
+                {
+                    "date": "2025-12-13T04:04:28.427Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-12T17:48:13.001Z",
+                    "eventTitle": "W trasie",
+                    "eventDescription": "Przesyłka jest w drodze między oddziałami InPost. Po dotarciu do miejsca docelowego zostanie przekazana do doręczenia."
+                },
+                {
+                    "date": "2025-12-12T15:15:02.429Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-12T12:35:03.814Z",
+                    "eventTitle": "Przesyłka utworzona",
+                    "eventDescription": "Przesyłka została utworzona, ale nie jest gotowa do nadania."
+                }
+            ],
+            "sharedTo": []
+        },
+        {
+            "shipmentNumber": "620999566231235677195642",
+            "shipmentType": "parcel",
+            "openCode": "236012",
+            "qrCode": "P|+48676767676|236012",
+            "storedDate": "2025-12-05T08:07:44.000Z",
+            "pickUpDate": "2025-12-05T20:57:00.026Z",
+            "pickUpPoint": {
+                "name": "TESTNAZWA",
+                "location": {
+                    "latitude": 50.10209,
+                    "longitude": 19.95641
+                },
+                "locationDescription": "Wewnątrz Lokalu",
+                "openingHours": "24/7",
+                "addressDetails": {
+                    "postCode": "31-235",
+                    "city": "test",
+                    "province": "małopolskie",
+                    "street": "jakaś",
+                    "buildingNumber": "41",
+                    "country": "PL"
+                },
+                "virtual": 0,
+                "pointType": "PL",
+                "type": [
+                    "parcel_locker"
+                ],
+                "location247": true,
+                "doubled": false,
+                "imageUrl": "https://static.easypack24.net/points/pl/images/chuj.jpg",
+                "easyAccessZone": true,
+                "airSensor": false,
+                "country": "PL"
+            },
+            "endOfWeekCollection": false,
+            "operations": {
+                "manualArchive": true,
+                "autoArchivableSince": "2025-12-05T20:57:00.026Z",
+                "delete": true,
+                "collect": false,
+                "expandAvizo": false,
+                "highlight": false,
+                "refreshUntil": "2026-01-18T15:19:13.686Z",
+                "requestEasyAccessZone": "DISALLOWED",
+                "voicebot": true,
+                "canShareToObserve": false,
+                "canShareOpenCode": false,
+                "canShareParcel": false,
+                "withDonations": true
+            },
+            "status": "READY_TO_PICKUP",
+            "statusGroup": "DELIVERED",
+            "eventLog": [
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "DELIVERED",
+                    "date": "2025-12-05T20:57:00.026Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "READY_TO_PICKUP",
+                    "date": "2025-12-05T08:07:44.328Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "OUT_FOR_DELIVERY",
+                    "date": "2025-12-05T05:41:38.288Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-05T03:54:21.817Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "SENT_FROM_SOURCE_BRANCH",
+                    "date": "2025-12-04T20:58:41.001Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-04T18:54:27.621Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "TAKEN_BY_COURIER",
+                    "date": "2025-12-04T16:39:00.720Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "CONFIRMED",
+                    "date": "2025-12-04T15:19:13.669Z"
+                }
+            ],
+            "avizoTransactionStatus": "NONE",
+            "carbonFootprint": {
+                "boxMachineDelivery": "0.011",
+                "addressDelivery": "0.249",
+                "changeDeliveryTypePercent": "95.4",
+                "changeDeliveryTypeValue": "0.238",
+                "redirectionUrl": "https://inpost.pl/slad-weglowy-w-aplikacji"
+            },
+            "ownershipStatus": "OWN",
+            "economyParcel": false,
+            "internationalParcel": false,
+            "parcelSize": "A",
+            "receiver": {
+                "phoneNumber": {
+                    "prefix": "+48",
+                    "value": "999999999"
+                },
+                "email": "9999999@order.inpostpay.pl",
+                "name": "9999999@order.inpostpay.pl"
+            },
+            "sender": {
+                "name": "KPOPOWO.pl"
+            },
+            "events": [
+                {
+                    "date": "2025-12-05T20:57:00.026Z",
+                    "eventTitle": "Doręczona",
+                    "eventDescription": "Podróż przesyłki od Nadawcy do Odbiorcy zakończyła się, ale nie musi to oznaczać końca naszej znajomości :) Jeśli lubisz InPost, odwiedź nasz fanpage na Facebooku. Dziękujemy!"
+                },
+                {
+                    "date": "2025-12-05T08:07:44.328Z",
+                    "eventTitle": "Gotowa do odbioru",
+                    "eventDescription": "Paczkomat InPost – Twoja paczka dotarła! Odbiorca otrzymuje e-maila, a także powiadomienie w aplikacji InPost Mobile lub SMS-a z kodem odbioru i informacją, jak długo paczka będzie czekać na odbiór. Jeśli paczka nie zostanie odebrana w tym czasie, zostanie zwrócona, o czym poinformujemy Odbiorcę w osobnych komunikatach."
+                },
+                {
+                    "date": "2025-12-05T05:41:38.288Z",
+                    "eventTitle": "Wydana do doręczenia",
+                    "eventDescription": "Już prawie! Prawdopodobnie dziś przesyłka trafi do Odbiorcy. Na godzinę przyjazdu Kuriera wpływa wiele czynników. W wyjątkowych, niezależnych od Kuriera sytuacjach, przesyłka może zostać doręczona w następnym dniu roboczym."
+                },
+                {
+                    "date": "2025-12-05T03:54:21.817Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T20:58:41.001Z",
+                    "eventTitle": "W trasie",
+                    "eventDescription": "Przesyłka jest w drodze między oddziałami InPost. Po dotarciu do miejsca docelowego zostanie przekazana do doręczenia."
+                },
+                {
+                    "date": "2025-12-04T18:54:27.621Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T16:39:00.720Z",
+                    "eventTitle": "Odebrana przez Kuriera",
+                    "eventDescription": "Dobra wiadomość! Przesyłka została odebrana przez Kuriera i jest w drodze do oddziału InPost, skąd wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-04T15:19:13.669Z",
+                    "eventTitle": "Przesyłka utworzona",
+                    "eventDescription": "Przesyłka została utworzona, ale nie jest gotowa do nadania."
+                }
+            ],
+            "sharedTo": [
+                {
+                    "uuid": "98989898-9898-9891-9898-989892989898",
+                    "name": "plz",
+                    "phoneNumber": {
+                        "prefix": "+48",
+                        "value": "000000067"
+                    }
+                }
+            ]
+        },
+        {
+            "shipmentNumber": "000000000000000000000000",
+            "shipmentType": "parcel",
+            "openCode": "995099",
+            "qrCode": "P|+48999999999|995099",
+            "storedDate": "2025-12-13T06:11:01.000Z",
+            "pickUpDate": "2025-12-13T20:54:59.877Z",
+            "pickUpPoint": {
+                "name": "TESTNAZWA",
+                "location": {
+                    "latitude": 50.10209,
+                    "longitude": 19.95641
+                },
+                "locationDescription": "Wewnątrz Lokalu",
+                "openingHours": "24/7",
+                "addressDetails": {
+                    "postCode": "31-235",
+                    "city": "xxx",
+                    "province": "xxx",
+                    "street": "xxx",
+                    "buildingNumber": "41",
+                    "country": "PL"
+                },
+                "virtual": 0,
+                "pointType": "PL",
+                "type": [
+                    "parcel_locker"
+                ],
+                "location247": true,
+                "doubled": false,
+                "imageUrl": "https://static.easypack24.net/points/pl/images/chuj.jpg",
+                "easyAccessZone": true,
+                "airSensor": false,
+                "country": "PL"
+            },
+            "multiCompartment": {
+                "uuid": "98989898-9898-9898-9898-989898989898",
+                "shipmentNumbers": [
+                    "000000000000000000000000",
+                    "000000000000000000000001"
+                ],
+                "presentation": false,
+                "collected": true
+            },
+            "endOfWeekCollection": true,
+            "operations": {
+                "manualArchive": true,
+                "autoArchivableSince": "2025-12-13T20:54:59.877Z",
+                "delete": true,
+                "collect": false,
+                "expandAvizo": false,
+                "highlight": false,
+                "refreshUntil": "2026-01-26T12:35:03.832Z",
+                "requestEasyAccessZone": "DISALLOWED",
+                "voicebot": true,
+                "canShareToObserve": false,
+                "canShareOpenCode": false,
+                "canShareParcel": false,
+                "withDonations": true
+            },
+            "status": "DELIVERED",
+            "statusGroup": "DELIVERED",
+            "eventLog": [
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "DELIVERED",
+                    "date": "2025-12-13T20:54:59.877Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "READY_TO_PICKUP",
+                    "date": "2025-12-13T06:11:01.150Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "OUT_FOR_DELIVERY",
+                    "date": "2025-12-13T05:12:56.600Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-13T04:04:28.427Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "SENT_FROM_SOURCE_BRANCH",
+                    "date": "2025-12-12T17:48:13.001Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "ADOPTED_AT_SOURCE_BRANCH",
+                    "date": "2025-12-12T15:15:02.429Z"
+                },
+                {
+                    "type": "PARCEL_STATUS",
+                    "name": "CONFIRMED",
+                    "date": "2025-12-12T12:35:03.814Z"
+                }
+            ],
+            "avizoTransactionStatus": "NONE",
+            "carbonFootprint": {
+                "boxMachineDelivery": "0.011",
+                "addressDelivery": "0.249",
+                "changeDeliveryTypePercent": "95.4",
+                "changeDeliveryTypeValue": "0.238",
+                "redirectionUrl": "https://inpost.pl/slad-weglowy-w-aplikacji"
+            },
+            "ownershipStatus": "OWN",
+            "economyParcel": false,
+            "internationalParcel": false,
+            "parcelSize": "A",
+            "receiver": {
+                "phoneNumber": {
+                    "prefix": "+48",
+                    "value": "999999999"
+                },
+                "email": "chuj@gmail.com",
+                "name": "Inpost Paczkomat chuj"
+            },
+            "sender": {
+                "name": "amazon@inpost.pl"
+            },
+            "events": [
+                {
+                    "date": "2025-12-13T20:54:59.877Z",
+                    "eventTitle": "Doręczona",
+                    "eventDescription": "Podróż przesyłki od Nadawcy do Odbiorcy zakończyła się, ale nie musi to oznaczać końca naszej znajomości :) Jeśli lubisz InPost, odwiedź nasz fanpage na Facebooku. Dziękujemy!"
+                },
+                {
+                    "date": "2025-12-13T06:11:01.150Z",
+                    "eventTitle": "Gotowa do odbioru",
+                    "eventDescription": "Paczkomat InPost – Twoja paczka dotarła! Odbiorca otrzymuje e-maila, a także powiadomienie w aplikacji InPost Mobile lub SMS-a z kodem odbioru i informacją, jak długo paczka będzie czekać na odbiór. Jeśli paczka nie zostanie odebrana w tym czasie, zostanie zwrócona, o czym poinformujemy Odbiorcę w osobnych komunikatach."
+                },
+                {
+                    "date": "2025-12-13T05:12:56.600Z",
+                    "eventTitle": "Wydana do doręczenia",
+                    "eventDescription": "Już prawie! Prawdopodobnie dziś przesyłka trafi do Odbiorcy. Na godzinę przyjazdu Kuriera wpływa wiele czynników. W wyjątkowych, niezależnych od Kuriera sytuacjach, przesyłka może zostać doręczona w następnym dniu roboczym."
+                },
+                {
+                    "date": "2025-12-13T04:04:28.427Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-12T17:48:13.001Z",
+                    "eventTitle": "W trasie",
+                    "eventDescription": "Przesyłka jest w drodze między oddziałami InPost. Po dotarciu do miejsca docelowego zostanie przekazana do doręczenia."
+                },
+                {
+                    "date": "2025-12-12T15:15:02.429Z",
+                    "eventTitle": "Przyjęta w Centrum Logistycznym",
+                    "eventDescription": "Przesyłka jest obecnie w Centrum Logistycznym, skąd wkrótce wyruszy w dalszą drogę."
+                },
+                {
+                    "date": "2025-12-12T12:35:03.814Z",
+                    "eventTitle": "Przesyłka utworzona",
+                    "eventDescription": "Przesyłka została utworzona, ale nie jest gotowa do nadania."
+                }
+            ],
+            "sharedTo": []
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+[
+    {
+        "id": 1,
+        "text": "Biiiiiileciki do kontroli~",
+        "speech_len": 2.157,
+        "speakingImageId": 0,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 2,
+        "text": "A nie? To nie dzisiaj.",
+        "speech_len": 2.435,
+        "speakingImageId": 3,
+        "idleImageId": 4,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 3,
+        "text": "*ekhem*",
+        "speech_len": 1.029,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 4,
+        "text": "Witamy na pokładzie aplikacji Koleo3DS.",
+        "speech_len": 3.275,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 5,
+        "text": "Moim zadaniem będzie oprowadzenie cię\npo aplikacji,",
+        "speech_len": 3.236,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 6,
+        "text": "aby twoja podróż koleją przebiegła bez\nżadnych problemów!",
+        "speech_len": 3.602,
+        "speakingImageId": 0,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 7,
+        "text": "(pomijając opóźnienia pociągów...)",
+        "speech_len": 2.073,
+        "speakingImageId": 3,
+        "idleImageId": 4,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 8,
+        "text": "Zacznijmy od menu głównego.",
+        "speech_len": 2.063,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 1,
+        "botImageId": 1
+    },
+    {
+        "id": 9,
+        "text": "Górny ekran będzie pokazywał stan twojego\nkonta oraz odpowiednie przywitanie.",
+        "speech_len": 4.828,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 2,
+        "botImageId": 1
+    },
+    {
+        "id": 10,
+        "text": "Dolny ekran natomiast będzie zawierał\nlistę dodanych przez ciebie pasażerów, których\nmożesz dobierać w zależności od podróży.",
+        "speech_len": 7.445,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 1,
+        "botImageId": 2
+    },
+    {
+        "id": 11,
+        "text": "Pasażerów wybierasz, przewijając listę i\ndotykając ich na dolnym ekranie stylusem\nlub... czymkolwiek innym, co masz pod ręką ^^.\nPalec wystarczy.",
+        "speech_len": 10.148,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 1,
+        "botImageId": 2
+    },
+    {
+        "id": 12,
+        "text": "Jeśli chcesz zobaczyć swoje wcześniej\nzakupione bilety, wciśnij L.",
+        "speech_len": 4.547,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 1,
+        "botImageId": 1
+    },
+    {
+        "id": 13,
+        "text": "Przy użyciu dotyku będziesz mógł się między\nnimi poruszać.",
+        "speech_len": 3.145,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 3,
+        "botImageId": 3
+    },
+    {
+        "id": 14,
+        "text": "Aby wrócić do menu głównego, wciśnij B.",
+        "speech_len": 2.993,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 3,
+        "botImageId": 3
+    },
+    {
+        "id": 15,
+        "text": "Jeśli natomiast chcesz obczaić połączenia na\nplanowaną podróż, wciśnij R.",
+        "speech_len": 4.789,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 1,
+        "botImageId": 1
+    },
+    {
+        "id": 16,
+        "text": "Zostaniesz przekierowany do menu, w którym\nwybierzesz:",
+        "speech_len": 3.093,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 4,
+        "botImageId": 4
+    },
+    {
+        "id": 17,
+        "text": "* stację początkową,",
+        "speech_len": 1.472,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 4,
+        "botImageId": 5
+    },
+    {
+        "id": 18,
+        "text": "* stację końcową,",
+        "speech_len": 1.381,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 4,
+        "botImageId": 6
+    },
+    {
+        "id": 19,
+        "text": "* oraz datę podróży.",
+        "speech_len": 1.538,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 4,
+        "botImageId": 7
+    },
+    {
+        "id": 20,
+        "text": "Wszystko obsługujesz za pomocą dotyku.",
+        "speech_len": 2.54,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 4,
+        "botImageId": 4
+    },
+    {
+        "id": 21,
+        "text": "Po wciśnięciu przycisku „Szukaj” zostaną\nwyświetlone dostępne połączenia.",
+        "speech_len": 4.608,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 5,
+        "botImageId": 8
+    },
+    {
+        "id": 22,
+        "text": "Przy każdym połączeniu znajdziesz informację,\nczy pociąg jest bezpośredni, czy wymaga\nprzesiadki.",
+        "speech_len": 5.835,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 5,
+        "botImageId": 8
+    },
+    {
+        "id": 23,
+        "text": "Zobaczysz również przedział czasowy,\nw którym będzie kursował.",
+        "speech_len": 3.439,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 5,
+        "botImageId": 8
+    },
+    {
+        "id": 24,
+        "text": "Po wybraniu jednego z połączeń na dolnym\nekranie zostaniesz przeniesiony do menu\nrezerwacji.",
+        "speech_len": 5.642,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 6,
+        "botImageId": 9
+    },
+    {
+        "id": 25,
+        "text": "Na górze dolnego ekranu będą widoczne\ndostępne taryfy.",
+        "speech_len": 4.052,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 6,
+        "botImageId": 10
+    },
+    {
+        "id": 26,
+        "text": "Niżej znajdziesz wybór między szybką rezerwacją\na rezerwacją z możliwością wyboru miejsca.",
+        "speech_len": 6.243,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 6,
+        "botImageId": 11
+    },
+    {
+        "id": 27,
+        "text": "Po przejściu przez jedną z tych opcji otrzymasz\nmożliwość płatności BLIK-iem lub\nśrodkami zgromadzonymi na koncie KOLEO.",
+        "speech_len": 7.089,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 6,
+        "botImageId": 12
+    },
+    {
+        "id": 28,
+        "text": "Jeśli nie będziesz miał czym zapłacić,\nznajdę ci-",
+        "speech_len": 2.674,
+        "speakingImageId": 0,
+        "idleImageId": 2,
+        "topImageId": 6,
+        "botImageId": 12
+    },
+    {
+        "id": 29,
+        "text": "Znaczy, eeeeh... będziesz mógł się\nwycofać za pomocą przycisku B.",
+        "speech_len": 4.294,
+        "speakingImageId": 3,
+        "idleImageId": 4,
+        "topImageId": 6,
+        "botImageId": 12
+    },
+    {
+        "id": 30,
+        "text": "To by było wszystko, co mam do\npowiedzenia!",
+        "speech_len": 2.417,
+        "speakingImageId": 1,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    },
+    {
+        "id": 31,
+        "text": "Dziękuję za skorzystanie z Koleo3DS!\nMam nadzieję, że twoje podróże pociągiem\nbędą przebiegały pomyślnie!",
+        "speech_len": 7.817,
+        "speakingImageId": 0,
+        "idleImageId": 2,
+        "topImageId": 0,
+        "botImageId": 0
+    }
+]

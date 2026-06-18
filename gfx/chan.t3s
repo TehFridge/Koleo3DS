@@ -1,0 +1,6 @@
+--atlas -f rgba4 -z auto
+chan_excited.png
+chan_idle_speak.png
+chan_idle.png
+chan_diss_speak.png
+chan_diss.png
