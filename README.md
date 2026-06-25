@@ -32,4 +32,4 @@
 </table>
 
 ## Notka Prawna
-Ta aplikacja jest projektem open source napisaną w języku C, która korzysta z API aplikacji KOLEO, należącej do Astarium sp. z o.o. Aplikacja została stworzona wyłącznie w celach edukacyjnych i nie jest powiązana z Astarium sp. z o.o. Twórca aplikacji nie jest w żaden sposób związany z firmą InPost i nie czerpie żadnych korzyści finansowych z tego projektu. Wszystkie znaki towarowe, nazwy handlowe i logotypy są własnością odpowiednich właścicieli. Użytkownicy korzystają z aplikacji na własne ryzyko.
+Ta aplikacja jest projektem open source napisaną w języku C, która korzysta z API aplikacji KOLEO, należącej do Astarium sp. z o.o. Aplikacja została stworzona wyłącznie w celach edukacyjnych i nie jest powiązana z Astarium sp. z o.o. Twórca aplikacji nie jest w żaden sposób związany z firmą  Astarium sp. z o.o. i nie czerpie żadnych korzyści finansowych z tego projektu. Wszystkie znaki towarowe, nazwy handlowe i logotypy są własnością odpowiednich właścicieli. Użytkownicy korzystają z aplikacji na własne ryzyko.
